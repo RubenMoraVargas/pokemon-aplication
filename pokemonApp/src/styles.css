@@ -1,0 +1,10 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+
+.material-icons{
+    vertical-align: middle;
+}
+
+.text-big{
+    font-size: 200px;
+}

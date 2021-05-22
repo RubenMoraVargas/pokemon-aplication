@@ -1,0 +1,46 @@
+<ul class="nav nav-tabs">
+  
+  <li class="nav-item">
+    <a
+      class="nav-link"
+      [routerLink]="['/', 'tablero', 'listas', 'tipos']"
+      [routerLinkActive]="'active'"
+      >Tipos</a
+    >
+  </li>
+  <li class="nav-item">
+    <a
+      class="nav-link"
+      [routerLink]="['/', 'tablero', 'listas', 'temporadas']"
+      [routerLinkActive]="'active'"
+      >Temporadas</a
+    >
+  </li>
+  <li class="nav-item">
+    <a
+      class="nav-link"
+      [routerLink]="['/', 'tablero', 'listas', 'evoluciones']"
+      [routerLinkActive]="'active'"
+      >Evoluciones</a
+    >
+  </li>
+  <li class="nav-item">
+    <a
+      class="nav-link"
+      [routerLink]="['/', 'tablero', 'listas', 'juegos']"
+      [routerLinkActive]="'active'"
+    >
+      <i class="material-icons">lock</i>Juegos</a
+    >
+  </li>
+  <li class="nav-item">
+    <a
+      class="nav-link"
+      [routerLink]="['/', 'tablero', 'listas', 'trucos']"
+      [routerLinkActive]="'active'"
+    >
+      <i class="material-icons">lock</i>Trucos</a
+    >
+  </li>
+</ul>
+<router-outlet></router-outlet>
